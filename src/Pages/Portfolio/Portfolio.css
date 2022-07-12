@@ -1,0 +1,29 @@
+.fd-containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 30px;
+   
+}
+.borders{
+    border: 2px solid green;
+    box-shadow: 10px 10px 5px -6px rgba(30,176,89,0.75);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(30,176,89,0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(30,176,89,0.75);
+}
+
+.sd{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:576px) {
+    .fd-containers{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .fd-containers{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

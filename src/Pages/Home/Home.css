@@ -1,0 +1,23 @@
+.resume-btn{
+    background-color: green;
+    color: white;
+    font-size: "18px";
+}
+.resume-btn:hover{
+    background-color: white;
+    color: green;
+    font-size: "108px";
+    border: 2px solid green;
+    
+}
+
+.hovergit:hover{
+    border: 2px solid green;
+    border-radius: 10px;
+   
+}
+.hoverstyle:hover{
+    border: 2px solid green;
+    padding: 4px;
+    border-radius: 10px;
+}
